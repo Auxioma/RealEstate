@@ -1,5 +1,5 @@
 <header class="flex justify-content align-item">    
-        <img class="logo" src="../images/logo x150.png" alt="logo">
+        <img class="logo" src="/RealEstate/vue/images/logo x150.png" alt="logo">
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
