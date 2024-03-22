@@ -18,21 +18,20 @@
 </head>
 
 <?php
+
 require '../../modele/connect_index.php';
 
 include 'header.php';
 
-require '../../modele/list_articles_index_model.php';
+require '../../modele/breaking_news_3_model.php';
+
 ?>
 
-<section>
-    <?php foreach($articles as $article): ?>
-        <article>
-            <h1><a href="article_index.php?id=<?= $article["id"] ?>"><?= $article["title"] ?></a></h1>
-            <p><?= $article["created_at"] ?></p>
-            <div><?= $article["content"] ?></div>
-        </article>
-<?php endforeach; ?> 
-</section>
+<article>
+            <h1><a href="article_index.php?id=<?= $articles["id"] ?>"><?= $articles["title"] ?></a></h1>
+            <p><?= $articles["created_at"] ?></p>
+            <div><?= $articles["content"] ?></div>
+</article>
 
 <?php include 'footer.php'; ?>
+

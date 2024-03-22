@@ -18,9 +18,9 @@
 </head>
 
 <?php
-require '../php/connect_index.php';
+require '../../modele/connect_index.php';
 
-include '../../header.php';
+include 'header.php';
 
 require '../../modele/article_index_model.php';
 
@@ -32,4 +32,4 @@ require '../../modele/article_index_model.php';
     <div><?= strip_tags($article["content"])?></div>
 </article>
 
-<?php include '../../footer.php'; ?>
+<?php include 'footer.php'; ?>

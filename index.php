@@ -19,7 +19,7 @@
 
 <body>
 
-<?php require './asset/php/connect_index.php'; ?>
+<?php require 'modele/connect_index.php'; ?> 
 
 
 <!-- logo avec menu principal -->
@@ -68,13 +68,13 @@
             <h1>Les actualités de l'immobilier</h1>
             <div class="news_slide">
                 <div class="size_flex">
-                    <div class="news_1"><a class="activ_news" href="#">Lorem ipsum first</a></div>
+                    <div class="news_1"><a class="activ_news" href="./vue/template/breaking_news_1.php">Lorem ipsum first</a></div>
                 </div>
                 <div class="size_flex">
-                    <div class="news_2"><a class="activ_news" href="#">Lorem ipsum second</a></div>
+                    <div class="news_2"><a class="activ_news" href="./vue/template/breaking_news_2.php">Lorem ipsum second</a></div>
                 </div>
                 <div class="size_flex">
-                    <div class="news_3"><a class="activ_news" href="#">Lorem ipsum third</a></div>
+                    <div class="news_3"><a class="activ_news" href="./vue/template/breaking_news_3.php">Lorem ipsum third</a></div>
                 </div>
                 <div class="size_flex">
                     <div class="news_all">
