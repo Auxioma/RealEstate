@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nos offres d'emploi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="./asset/js/offers.js" defer></script>
-    <link rel="stylesheet" href="./asset/css/header_footer.css">
-    <script src="./asset/js/header.js" defer></script>
+    <script src="../javascript/offers.js" defer></script>
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <script src="../javascript/header.js" defer></script>
     <link rel="stylesheet" href="./asset/css/offers.css">
+    <link rel="stylesheet" href="../css/offers.css">
 </head>
 
 <body>
@@ -23,8 +24,7 @@ try {
 ?>
 
 <?php
-// Inclure le fichier header.php (_DIR_.'header.php')
-require 'header.php';
+require '../template/header.php';
 ?>
 
 <?php
@@ -35,7 +35,6 @@ foreach ($datas as $data) {
 echo $data['phone_number'];
 }
 ?>
-
 
 
 
@@ -138,26 +137,26 @@ echo $data['phone_number'];
             <section class="section2">
                 <div class="photos-map">
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
-                                src="asset/images/offers/photo_offer.jpg" alt="photo de l'offre">
+                                src="vue/images/offers/photo_offer.jpg" alt="photo de l'offre">
                             <figcaption class="agent">Agent immobilier F/H</figcaption>
                         </a> </div>
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
-                                src="asset/images/offers/photo_offer.jpg" alt="photo de l'offre">
+                                src="vue/images/offers/photo_offer.jpg" alt="photo de l'offre">
                             <figcaption class="agent">Agent immobilier F/H</figcaption>
                         </a> </div>
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
-                                src="asset/images/offers/photo_offer.jpg" alt="photo de l'offre">
+                                src="vue/images/offers/photo_offer.jpg" alt="photo de l'offre">
                             <figcaption class="agent">Agent immobilier F/H</figcaption>
                         </a> </div>
             </section>
             <section class="section2">
                 <div class="photos-map">
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
-                                src="asset/images/offers/photo_offer.jpg" alt="photo de l'offre">
+                                src="vue/images/offers/photo_offer.jpg" alt="photo de l'offre">
                             <figcaption class="agent">Agent immobilier F/H</figcaption>
                         </a> </div>
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
-                                src="asset/images/offers/photo_offer.jpg"" alt=" photo de l'offre">
+                                src="vue/images/offers/photo_offer.jpg"" alt=" photo de l'offre">
                             <figcaption class="agent">Agent immobilier F/H</figcaption>
                         </a> </div>
                     <div class="section2-photos"> <a href="offers-last.html"> <img id="offer-photo"
@@ -236,7 +235,7 @@ echo $data['phone_number'];
     </div>
 
     <?php
-require 'footer.php';
+require '../template/footer.php';
 ?>
 
 </body>
