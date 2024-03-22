@@ -14,6 +14,6 @@
             </ul>
         </nav>
         <div class="logo-mon-compte">
-            <a class="active" href="authentification.php"><i class="fa-solid fa-user"></i> Mon compte</a>
+            <a class="active" href="/RealEstate/vue/template/authentification.php"><i class="fa-solid fa-user"></i> Mon compte</a>
         </div>
     </header>
