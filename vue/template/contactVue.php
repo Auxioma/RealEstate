@@ -94,8 +94,10 @@
 
                         <label for="message">
                         <textarea name="message" rows="10" cols="63" id="message" placeholder="Votre message* :"></textarea>                    </label>
+                        
+                        <div class= "submit">
                         <button type="submit">Envoyer</button>
-
+                        </div>
                     </div> 
                     
                 </form> 

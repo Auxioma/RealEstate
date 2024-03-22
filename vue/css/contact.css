@@ -156,19 +156,15 @@ h1 {
     vertical-align: top;
 }
 
-/* code à tester*/
-#submit {
+.submit {
     display: block;
-    /*clear: both;*/
-    margin-top: 2rem;
+    clear: both;
+    margin-top: 0.5rem;
     margin-left: auto;
     margin-right: auto;
-    text-align: center; 
+    /*text-align: center; */
     
 }
-/* fin du code à tester*/
-
-
 
 .subject {
     background-color: #b1f3bc;

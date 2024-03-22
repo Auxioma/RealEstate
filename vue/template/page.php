@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="asset/js/page.js" defer></script>
+    <script src="../javascript/page.js" defer></script>
     <script src="asset/js/header.js" defer></script>
-    <link rel="stylesheet" href="./asset/css/header_footer.css">
-    <link rel="stylesheet" href="./asset/css/page.css">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/page.css">
     <title>connexion</title>   
 </head>
 
 <body>
   
     <?php
-    require 'header.php';
+    require '../template/header.php';
     ?>
 
 
@@ -85,7 +85,7 @@
     
 
     <?php
-     require 'footer.php';
+     require '../template/footer.php';
     ?>
 
 </body>
