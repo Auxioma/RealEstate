@@ -7,10 +7,10 @@
                 <i class="fa-solid fa-xmark" id="menu-closer" hidden></i>
             </label>
             <ul class="menu flex justify-content">
-                <li><a class="title-txt" href="buy.php">Acheter</a></li>
+                <li><a class="title-txt" href="/RealEstate/vue/template/buy.php">Acheter</a></li>
                 <li><a class="title-txt" href="/RealEstate/vue/template/rentVue.php">Louer</a></li>
-                <li><a class="title-txt" href="sell.php">Vendre</a></li>
-                <li><a class="title-txt" href="contactVue.php">Contact</a></li>
+                <li><a class="title-txt" href="/RealEstate/vue/template/sellView.php">Vendre</a></li>
+                <li><a class="title-txt" href="/RealEstate/vue/template/contactVue.php">Contact</a></li>
             </ul>
         </nav>
         <div class="logo-mon-compte">
