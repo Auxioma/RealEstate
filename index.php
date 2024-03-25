@@ -30,7 +30,7 @@
 <!-- bannière avec fonction recherche -->
     <section class="banner">
         <div class="search">
-            <form id="search_form" class="menu_search">
+            <form id="search_form" class="menu_search" action="../RealEstate/controller/form_index_controller.php" method="post">
                 <div class="size_form">
                     <select name="search" id="take_search" class="menu_search_deco size_search" required >
                         <option class="value_bold" value="">Je cherche ...</option>
