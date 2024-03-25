@@ -28,9 +28,11 @@ require '../../modele/breaking_news_1_model.php';
 ?>
 
 <article>
-            <h1><a href="article_index.php?id=<?= $articles["id"] ?>"><?= $articles["title"] ?></a></h1>
+        
+            <h1><?= $articles["title"] ?></h1>
             <p><?= $articles["created_at"] ?></p>
             <div><?= $articles["content"] ?></div>
+               
 </article>
 
 <?php include 'footer.php'; ?>
